@@ -1,0 +1,279 @@
+repo_name: Egaros/CliFx
+report_id: 151f7887e5c36793fcbe8e5eb2506387
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:41:34+00:00'
+requested_by: Tyrrrz
+provider: github
+branch: master
+detected_tools_count: 20
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/Egaros/CliFx
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx/CliFx.csproj
+  detection_source: CliFx/CliFx.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2019-06-02 15:32:25.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '5.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  detection_source: CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-04-18 16:38:35.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '5.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  detection_source: CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-04-18 16:38:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Egaros/CliFx
+  detection_source: Repo Metadata
+- name: GitHub
+  description: Powerful collaboration, review, and code management for open source
+    and private development projects
+  website_url: https://github.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Collaboration & Version Control
+  image_url: https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx/CliFx.csproj
+  detection_source: CliFx/CliFx.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2020-04-25 15:03:21.000000000 Z
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/.github/workflows/CD.yml
+  detection_source: ".github/workflows/CD.yml"
+  last_updated_by: Alexey Golub
+  last_updated_on: 2021-07-28 22:13:09.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx/CliFx.csproj
+  detection_source: CliFx/CliFx.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2019-06-02 15:32:25.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.sln
+  detection_source: CliFx.sln
+  last_updated_by: Alexey Golub
+  last_updated_on: 2019-06-02 15:32:25.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  detection_source: CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2020-04-25 15:03:21.000000000 Z
+- name: BenchmarkDotNet
+  description: Powerful .NET library for benchmarking
+  package_url: https://www.nuget.org/BenchmarkDotNet
+  version: 0.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14365/default_90e7ce697521dd13e8eb643d3771c2a0e4e6d561.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.Benchmarks/CliFx.Benchmarks.csproj
+  detection_source: CliFx.Benchmarks/CliFx.Benchmarks.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-04-18 16:38:35.000000000 Z
+- name: CommandLineParser
+  description: Terse syntax C# command line parser for .NET
+  package_url: https://www.nuget.org/CommandLineParser
+  version: 2.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13122/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.Benchmarks/CliFx.Benchmarks.csproj
+  detection_source: CliFx.Benchmarks/CliFx.Benchmarks.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2021-03-21 07:54:00.000000000 Z
+- name: FluentAssertions
+  description: A very extensive set of extension methods that allow you to more naturally
+    specify the expected outcome of a TDD or BDD-style unit tests
+  package_url: https://www.nuget.org/FluentAssertions
+  version: 5.10.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13059/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  detection_source: CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-05-10 18:10:42.000000000 Z
+- name: McMaster.Extensions.CommandLineUtils
+  description: Command-line parsing API and utilities for console applications
+  package_url: https://www.nuget.org/McMaster.Extensions.CommandLineUtils
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13508/default_acafa9133bcbebb2b966c9340c23194c2f9bf7bc.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.Benchmarks/CliFx.Benchmarks.csproj
+  detection_source: CliFx.Benchmarks/CliFx.Benchmarks.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-04-18 16:38:35.000000000 Z
+- name: Microsoft.CodeAnalysis.CSharp
+  description: ".NET Compiler Platform"
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.CSharp
+  version: 3.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12967/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  detection_source: CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-05-10 18:10:42.000000000 Z
+- name: Microsoft.Extensions.DependencyInjection
+  description: Default implementation of dependency injection for Microsoft.Extensions.DependencyInjection
+  package_url: https://www.nuget.org/Microsoft.Extensions.DependencyInjection
+  version: 5.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12846/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.Demo/CliFx.Demo.csproj
+  detection_source: CliFx.Demo/CliFx.Demo.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-04-18 16:38:35.000000000 Z
+- name: Microsoft.SourceLink.GitHub
+  description: Generates source link for GitHub repositories
+  package_url: https://www.nuget.org/Microsoft.SourceLink.GitHub
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13339/default_bf5ef28b557cbc9d58bff0b01afc8f39b37cfbc6.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx/CliFx.csproj
+  detection_source: CliFx/CliFx.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2020-04-25 19:24:48.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 13.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.Demo/CliFx.Demo.csproj
+  detection_source: CliFx.Demo/CliFx.Demo.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-04-18 16:38:35.000000000 Z
+- name: System.Threading.Tasks.Extensions
+  description: Provides additional types that simplify the work of writing concurrent
+    and asynchronous code
+  package_url: https://www.nuget.org/System.Threading.Tasks.Extensions
+  version: 4.5.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12998/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx/CliFx.csproj
+  detection_source: CliFx/CliFx.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2021-03-21 07:54:00.000000000 Z
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.3
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/Egaros/CliFx/blob/master/CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  detection_source: CliFx.Analyzers.Tests/CliFx.Analyzers.Tests.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-05-10 18:10:42.000000000 Z
